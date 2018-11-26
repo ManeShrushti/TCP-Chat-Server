@@ -1,0 +1,7 @@
+sudo ifconfig wlp2s0 down
+sudo iwconfig wlp2s0 mode ad-hoc
+sudo iwconfig wlp2s0 channel 1 essid MYNETWORK mode ad-hoc
+sudo ifconfig wlp2s0 up
+sudo ifconfig wlp2s0 192.168.1.121 netmask 255.255.255.0
+
+
